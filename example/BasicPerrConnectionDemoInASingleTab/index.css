@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.operation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.operation button {
+  height: 30px;
+  width: 80px;
+  background-color: slateblue;
+  color: white;
+  border: none;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.operation button[disabled] {
+  background-color: grey;
+  color: aliceblue;
+}
+
+.videoPlay {
+  display: flex;
+  justify-content: center;
+  border: 1px solid grey;
+  height: 480px;
+  width: auto;
+}
